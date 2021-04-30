@@ -95,7 +95,7 @@ class label:
 
 def initializeLoginDB():
     if (platform.system() != "Windows"):
-        dbNameString = '/var/www/FlaskApp/FlaskApp/loginInfo.db'
+        dbNameString = './loginInfo.db'
     if (platform.system() == "Windows"):
         dbNameString = 'loginInfo.db'
     

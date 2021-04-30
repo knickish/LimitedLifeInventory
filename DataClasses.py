@@ -51,13 +51,6 @@ class item:
         
         
 class label:
-    uid = 123
-    itemNumber = 123
-    lifetime = 1234
-    initTime = 1234
-    creatorId = 12
-    itemNotes = {}
-    
     def __init__(self, uId, itemNumber, initTime, lifeRemaining, creatorId, note = ''):
         self.uid = uId
         self.itemNumber = itemNumber
